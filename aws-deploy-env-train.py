@@ -267,3 +267,10 @@ auth_inbound_ssh='aws ec2 authorize-security-group-ingress --region' + " " + "{}
 output = check_output("{}".format(auth_inbound_ssh), shell=True).decode().strip()
 print("Output: \n{}\n".format(output))
 
+#Create inbound rule on the security group to allow SSH
+#aws ec2 authorize-security-group-ingress --group-id sg-1234567890abcdef0 --protocol tcp --port 22 --cidr 0.0.0.0/0
+auth_inbound_ssh='aws ec2 authorize-security-group-ingress --region' + " " + "{}".format(region) + " " + '--group-id' + " " "{}".format(router_sg_id) + " " + '--protocol tcp --port 443 --cidr 0.0.0.0/0'
+output = check_output("{}".format(auth_inbound_ssh), shell=True).decode().strip()
+print("Output: \n{}\n".format(output))
+
+
