@@ -16,3 +16,7 @@ The IOS XE based Cisco Cloud Services Router (CSR1000V) sets the standard for vi
 
 us-east-1
 ami-067c66abd840abc24
+
+
+ubuntu us-east-1 ohio
+ami-05117a5348bb8a291

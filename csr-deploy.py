@@ -10,7 +10,7 @@ from lab_vars import *
 
 keypair_name=name
 sg_name=name
-ami_id='ami-00811671609253811'
+ami_id=csr_ami_id
 
 path = os.getcwd()
 print(path)

@@ -11,7 +11,7 @@ keypair_name=name
 #Create the ubuntu router subnet tools instance
 
 #ubuntu_ami_id_us_east_1='ami-09d5bd376ff640e79'
-ubuntu_ami_id='ami-0b0b0a959b02ca354'
+ubuntu_ami_id=ubuntu_ami_id
 instance_type='t2.nano'
 outfile_deploy_csr='deploy-ubuntu-lan.json'
 outfile_deploy_ubuntu_lan='deploy-ubuntu-lan.json'
