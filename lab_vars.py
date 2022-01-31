@@ -1,4 +1,4 @@
 name='sconrod-dev'
-region='us-east-a'
-az='us-east-1b'
-ubuntu_ami_id='ami-07567b572a8b16045'
+region='us-west-1'
+az='us-west-1a'
+ubuntu_ami_id='ami-0b6cee046d4cae9a9'
