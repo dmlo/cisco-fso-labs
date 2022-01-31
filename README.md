@@ -44,6 +44,19 @@ https://github.com/devops-ontap/cisco-fso-labs
 - git status
 - git fetch --all
 
+Do a first commit by 1. creating a notes file then do:
+git add mynotes.txt
+git commit -m "added notes file for first commit"
+git push --set-upstream origin yourbranchname
+git pull
+git fetch -all
+
+Check you are on your branch
+git branch
+
+
+
+
 3. Setup your IAM account with Admin/FullEC2 and ability to generate VPCs and add the key in lastpass vault secure note
     - In this lab - using lastpass as it is free and fast/simple to set up an account. Add the key to lastpass in a note in the AWS csv format
     - we will be using lastpass as our vault for now. Subsequent iterations will use Hashicorp Vault and AD
