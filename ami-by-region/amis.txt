@@ -20,3 +20,6 @@ ami-067c66abd840abc24
 
 ubuntu us-east-1 ohio
 ami-05117a5348bb8a291
+
+ubuntu-2-ohio
+ami-00811671609253811

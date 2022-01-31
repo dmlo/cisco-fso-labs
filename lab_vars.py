@@ -1,5 +1,5 @@
 name='jjose'
 region='us-east-2'
 az='us-east-2b'
-ubuntu_ami_id='ami-05117a5348bb8a291'
+ubuntu_ami_id='ami-00811671609253811'
 csr_ami_id='ami-07567b572a8b16045'
