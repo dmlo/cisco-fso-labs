@@ -10,7 +10,7 @@ sg_name=name
 keypair_name=name
 
 #Create the ubuntu router subnet tools instance
-ubuntu_ami_id='ami-0b0b0a959b02ca354'
+ubuntu_ami_id=ubuntu_ami_id
 instance_type='t2.nano'
 
 outfile_get_vpcid='outfile_get_vpcid.json'
