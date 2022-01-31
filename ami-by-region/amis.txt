@@ -1,5 +1,18 @@
 Cisco Cloud Services Router (CSR) 1000V - BYOL for SD-WAN 17.3
+The Bring Your Own License (BYOL) for SD-WAN version of the Cisco Cloud Services Router (CSR1000V) delivers a software router that supports Cisco SD-WAN in AWS. By deploying this AMI customers can extend their Cisco SD-WAN overlay into public cloud environments.
+he CSR is a full feature Cisco SD-WAN router (i.e. ASR1K and ISR) and enables enterprise IT to deploy the same enterprise-class SD-WAN networking services in the AWS cloud that they are used to in on-prem networks. By deploying this AMI customers can extend their Cisco SD-WAN overlay into public cloud environments. This AMI supports the DNA Essentials, DNA Advantage, and DNA Premier feature packages and uses the high-performance versions of AWS EC2 instances.
+To activate this AMI, please obtain a license from Cisco with the following options: (1) Tech Package: DNA Essentials, DNA Advantage, or DNA Premier (2) Performance Level: 50 Mbps, 100Mbps, 250Mbps, 500 Mbps, 1 Gbps, 2.5 Gbps or 5Gbps and (3) Time period: 3-year or 5-year.
+
+
+
 Virginia:
 Ami Id: ami-07567b572a8b16045
 OHIO
 Ami Id: ami-00811671609253811
+
+
+Cisco Cloud Services Router (CSR) 1000V 16.12.6
+The IOS XE based Cisco Cloud Services Router (CSR1000V) sets the standard for virtual network services with maximum IPSec performance in the Amazon Web Services (AWS) cloud, bringing the world's most popular networking platform to AWS.
+
+us-east-1
+ami-067c66abd840abc24
