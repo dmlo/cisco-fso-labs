@@ -77,6 +77,10 @@ with open(outfile_vars, 'a+') as my_file:
     my_file.write(vpcid_var + "\n")
 
 
+#Create the keypair
+create_keypair='aws ec2 create-key-pair --key-name' + " " +  "{}".format(name) + " " + '--region' + " " + "{}".format(region) + " " + '--availability-zone' + " " + "{}".format(az)
+
+
 #CREATE THE ROUTER SUBNET
 outfile_subnet_router = 'aws-subnet-router.json'
 cmd_subnet_router='aws ec2 create-subnet --vpc-id' + " " + "{}".format(vpcid) + " " + '--region' + " " + "{}".format(region) + " " + '--availability-zone' + " " + "{}".format(az) + " " + '--cidr-block 10.10.10.0/24 --tag-specifications' + " " "'ResourceType=subnet,Tags=[{Key=Name,Value=SUBNET_01_ROUTER}]'"
